@@ -186,54 +186,66 @@ int main() {
 
 /*
     Output:
+                 * Employee Database *
 
-    1. **Add Employee Record (Choice 1)**:
-       - Prompts for Employee ID, Name, and Salary. Adds the employee's details to the `employee_database.txt` file.
-       - Example input and output:
-         Enter Employee ID: 101
-         Enter Employee Name: John Doe
-         Enter Employee Salary: 50000
-         Employee record added successfully!
-       - File content after adding:
-         101 50000.00 John Doe
 
-    2. **Display Employee Records (Choice 2)**:
-       - Displays all employee records from the file.
-       - Example output (if a record exists):
-         Employee Records:
-         ID      Name            Salary
-         ---------------------------------
-         101     John Doe        50000.00
-       - If no records are found, the output will be:
-         No employee records found!
+Employee Database Menu:
+1. Add Employee Record
+2. Display Employee Records
+3. Edit Employee Record
+4. Remove Employee Record
+5. Exit
+Enter your choice: 1
+Enter Employee ID: 100
+Enter Employee Name: Ramesh
+Enter Employee Salary: 5
+Employee record added successfully!
 
-    3. **Edit Employee Record (Choice 3)**:
-       - Prompts for the Employee ID to edit, then updates the name and salary.
-       - Example input and output (if the record is found):
-         Enter the Employee ID to edit: 101
-         Editing Employee ID 101:
-         Enter New Name: Jane Smith
-         Enter New Salary: 60000
-         Employee record updated successfully!
-       - File content after editing:
-         101 60000.00 Jane Smith
-       - If the ID is not found:
-         Employee ID not found!
+Employee Database Menu:
+1. Add Employee Record
+2. Display Employee Records
+3. Edit Employee Record
+4. Remove Employee Record
+5. Exit
+Enter your choice: 2
 
-    4. **Remove Employee Record (Choice 4)**:
-       - Prompts for the Employee ID to remove. Deletes the corresponding record from the file.
-       - Example input and output (if the record exists):
-         Enter the Employee ID to remove: 101
-         Removing Employee ID 101: Jane Smith
-         Employee record removed successfully!
-       - File content after removing (if no other records exist):
-         (Empty file or remaining records)
-       - If the ID is not found:
-         Employee ID not found!
+Employee Records:
+ID      Name            Salary
+---------------------------------
+100     Ramesh         5.00
 
-    5. **Exit Program (Choice 5)**:
-       - Exits the program with a message:
-         Exiting the program.
+Employee Database Menu:
+1. Add Employee Record
+2. Display Employee Records
+3. Edit Employee Record
+4. Remove Employee Record
+5. Exit
+Enter your choice: 3
+Enter the Employee ID to edit: 100
+Editing Employee ID 100:
+Enter New Name: Ramesh
+Enter New Salary: 7
+Employee record updated successfully!
+
+Employee Database Menu:
+1. Add Employee Record
+2. Display Employee Records
+3. Edit Employee Record
+4. Remove Employee Record
+5. Exit
+Enter your choice: 4
+Enter the Employee ID to remove: 100
+Removing Employee ID 100: Ramesh
+Employee record removed successfully!
+
+Employee Database Menu:
+1. Add Employee Record
+2. Display Employee Records
+3. Edit Employee Record
+4. Remove Employee Record
+5. Exit
+Enter your choice: 5
+Exiting the program.
 */
 
     
